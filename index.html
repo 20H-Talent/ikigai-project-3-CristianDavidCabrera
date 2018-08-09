@@ -18,16 +18,66 @@
     </header>
 
     <main>
-        <section>
-           <h3>Contact Information</h3> 
+        <section class="container">
+            <form name="contact_information" action="index.html" method="POST">
+                
+                <fieldset>
+                    
+                    <legend><h3>Contact Information</h3></legend><br>
 
+                    <div class="contact_information">
+                        <label for="fullname">Full Name</label>
+                        <input type="text" id="name" name="user_name" placeholder="Required">
+
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="user_email" placeholder="Required">
+
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="user_phone">
+
+                        <label for="adress">Street Address</label>
+                        <input type="text" id="address" name="user_adress">
+
+                        <label for="city">City</label>
+                        <input type="text" id="city" name="user_city">
+
+                        <label for="state">State</label>
+                        <select id="state" name="user_state">
+                            <option value="aguadebueyes">Agua de Bueyes</option>
+                            <option value="tiscmanita">Tiscamanita</option>
+                            <option value="antigua">Antigua</option>
+                            <option value="vallesdeortega">Valles de Ortega</option>
+                            <option value="triquivijate">Triquivijate</option>
+                            <option value="betancuria">Betancuria</option>
+                            <option value="ampuyenta">Ampuyenta</option>
+                        </select>
+
+                        <label for="zip_code">Zip Code</label>
+                        <input type="text" id="zip_code" name="user_zip_code">
+                    </div>
+                </fieldset>
+
+                <fieldset>
+
+                    <legend><h3>Newsletter</h3></legend><br>
+
+                    <div class="newsletter">
+                        <p>Select the newsletters you would like to receive</p>
+                        <input type="checkbox" id="html_ news" value="html_newsletter" name="user_news">
+                        <label for="html_news">HTML News</label>
+                        <br>
+
+                        <input type="checkbox" id="css_news" value="css_newsletter" name="user_news">
+                        <label for="css_news">CSS News</label>
+                        <br>
+
+                        <input type="checkbox" id="js_news" value="js_newsletter" name="user_news">
+                        <label for="js_news">Javascript News</label>
+                        <br>
+                    </div>
+                </fieldset>
+            </form>
         </section>
-
-        <section>
-            <h3>Newsletter</h3>
-            
-        </section>
-
     </main>
 
     <footer></footer>
