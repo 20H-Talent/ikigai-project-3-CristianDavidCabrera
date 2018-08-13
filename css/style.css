@@ -10,8 +10,8 @@
 header {
     text-align: center;
     margin: 2px 20px 0px;
-    padding-top: 1.5rem;
-    padding-bottom: 2.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
     border-bottom: 5px solid rgba(47, 68, 68, .7);
 }
 
@@ -109,6 +109,7 @@ input, select {
     border-radius: 5%;
     padding: 1rem 0;
     width: 100%;
+    resize: none;
 }
 
 .button-submit {
@@ -148,8 +149,8 @@ footer {
         flex-direction: column;
         margin: 0 auto;
         text-align: center;
-        padding-top: 1.5rem;
-        padding-bottom: 2.5rem;
+        padding-top: 1rem;
+        padding-bottom: 1.5rem;
         border-bottom: 5px solid rgba(47, 68, 68, .7);
         max-width: 80%;
     }
@@ -164,6 +165,14 @@ footer {
         max-width: 80%;
         padding: .5em .5em;
     }
+
+    p {
+        margin-top: .5rem;
+    }
+    h3 {
+        margin: 0;
+    }
+
     hr{
         border-top: 3px solid rgba(47, 68, 68, .7);
     }
@@ -175,7 +184,7 @@ footer {
         width: 100%;
         align-items: center;
         justify-content: space-between;
-        margin-top: 0.2rem;
+        margin-top: 1.2rem;
      
     }
     input[type="text"], input[type="email"], input[type="tel"], select#state {
