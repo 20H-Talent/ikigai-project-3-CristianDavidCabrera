@@ -52,13 +52,15 @@ fieldset {
     margin: 2px 20px 0px;
     padding: .5em .5em;
 }
+hr {
+    border-top: 3px solid rgba(47, 68, 68, .7);
+}
 
 .container, .contact-information, .newsletter {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     padding: 1em .5em;
-    
 }
 
 .newsletter {
@@ -80,9 +82,7 @@ input, select {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-
 }
-
 
 .checkbox, .radiobuttons {
     flex-direction: column;
@@ -127,35 +127,64 @@ footer {
 }
 
 @media (min-width:768px) {
-    
     form {
         width: 80%;
         margin: 0 auto;
         display: flex;
         flex-direction: column;
     }
-
-   .contact-information {
+    .contact-information {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        width: 100%;        
+        width: 100%;
     }
-
+    header {
+        display: flex;
+        flex: wrap;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 1.5rem;
+        padding-bottom: 2.5rem;
+        border-bottom: 5px solid rgba(47, 68, 68, .7);
+        max-width: 80%;
+    }
+    .border-section {
+        display: flex;
+        flex: wrap;
+        justify-content: center;
+        margin: 0 auto;
+        border-top: 3px solid rgba(47, 68, 68, .7);
+        border-top-style: solid;
+        margin-top: 0.2rem;
+        max-width: 80%;
+        padding: .5em .5em;
+    }
+    hr{
+        border-top: 3px solid rgba(47, 68, 68, .7);
+    }
 
     .input {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        justify-content: space-between;
         width: 100%;
         align-items: center;
-    
+        justify-content: space-between;
+        margin-top: 0.2rem;
+     
     }
-  
-  
-
-    
+    input[type="text"], input[type="email"], input[type="tel"], select#state {
+        width: 70%;
+        height: auto;
+        flex-grow: 2;
+    } 
+    label{
+        width: 25%;
+    }
+   
 }
