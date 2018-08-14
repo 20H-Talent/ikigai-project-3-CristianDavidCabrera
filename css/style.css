@@ -166,7 +166,7 @@ footer {
         text-align: center;
         padding-top: 1rem;
         padding-bottom: 1.5rem;
-        border-bottom: 5px solid color #39393A;
+        border-bottom: 5px solid #39393A;
         ;
         max-width: 80%;
     }
@@ -175,7 +175,7 @@ footer {
         flex-wrap: wrap;
         justify-content: center;
         margin: 0 auto;
-        border-top: 3px solid color #39393A;
+        border-top: 3px solid #39393A;
         ;
         border-top-style: solid;
         margin-top: 0.2rem;
@@ -194,7 +194,7 @@ footer {
         font-weight: bolder;
     }
     hr {
-        border-top: 3px solid color #39393A;
+        border-top: 3px solid #39393A;
         ;
         width: 100%;
     }
