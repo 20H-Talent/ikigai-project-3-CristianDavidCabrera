@@ -18,9 +18,10 @@ header {
 h1 {
     text-align: center;
     margin-top: 0%;
-    padding: .1rem;
+    padding: 1rem;
     color: white;
     background-color: #39393A;
+    font-size: 1.8rem;
 }
 
 h2 {
