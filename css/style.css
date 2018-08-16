@@ -103,7 +103,21 @@ input, select {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    
+}
+
+select {
+    -webkit-appearance: none;
+    /*  resetear la apariencia del select  */
+}
+
+#name, #email {
+    text-align: right;
+    padding-right: 1.2rem;
+}
+
+#state {
+    text-align: left;
+    padding-left: 1.2rem;
 }
 
 .textarea {
@@ -149,7 +163,8 @@ footer {
         flex-direction: column;
     }
     select {
-        -webkit-appearance: none;  /*  resetear la apariencia del select  */
+        -webkit-appearance: none;
+        /*  resetear la apariencia del select  */
     }
     .contact-information {
         display: flex;
@@ -217,5 +232,13 @@ footer {
     }
     label {
         width: 25%;
+    }
+    #name, #email {
+        text-align: right;
+        padding-right: 1.2rem;
+    }
+    #state {
+        text-align: left;
+        padding-left: 1.2rem;
     }
 }
